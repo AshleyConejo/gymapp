@@ -1,0 +1,50 @@
+<nav>
+  <img src="/assets/images/projectLogo.png" class="logo">
+  <ul id="sidemenu">
+
+    <li class="nav-item">
+      <% if (title === "Home") { %>
+        <a class="nav-link active" href="/home">Home</a>
+      <% } else { %>
+        <a class="nav-link" href="/home">Home</a>
+      <% } %>
+    </li>
+
+
+   <li class="nav-item">
+      <% if (title === "workout") { %>
+        <a class="nav-link active" href="/workouts">Workout Split</a>
+      <% } else { %>
+        <a class="nav-link" href="/workouts">Workout Split</a>
+      <% } %>
+    </li>
+
+    <li class="nav-item">
+      <% if (title === "About") { %>
+        <a class="nav-link active" href="/about">About Us</a>
+      <% } else { %>
+        <a class="nav-link" href="/about">About Us</a>
+      <% } %>
+    </li>
+
+
+    <li class="nav-item">
+      <% if (title === "Log In") { %>
+        <a class="nav-link active" href="/login">Log In</a>
+      <% } else { %>
+        <a class="nav-link" href="/login">Log In</a>
+      <% } %>
+    </li>
+
+    <li class="nav-item">
+      <% if (title === "Contact") { %>
+        <a class="nav-link active" href="/contact">Contact Us</a>
+      <% } else { %>
+        <a class="nav-link" href="/contact">Contact Us</a>
+      <% } %>
+    </li>
+
+
+    
+  </ul>
+</nav>
